@@ -38,4 +38,6 @@ test("initial conditions", () => {
   expect(colorButton).toBeEnabled();
 
   // check that the checkbox starts out unchecked
+  const checkbox = screen.getByRole("checkbox");
+  expect(checkbox).not.toBeChecked();
 });
