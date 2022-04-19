@@ -6,7 +6,7 @@ function App() {
   const newButtonColor = buttonColor === "red" ? "blue" : "red";
 
   return (
-    <div className="App">
+    <div className="">
       <button
         style={{ backgroundColor: buttonColor }}
         onClick={() => setButtonColor(newButtonColor)}
